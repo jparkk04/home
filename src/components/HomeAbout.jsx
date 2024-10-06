@@ -13,7 +13,7 @@ const HomeAbout = () => {
                         Japan, and South Korea. I enjoy running, hiking, travelling, and trying all sorts of interesting food.
                         </p>
                     </div>
-                    <img src="./src/assets/about.png" alt="" className='w-1/4 object-cover' />
+                    <img src="./assets/about.png" alt="" className='w-1/4 object-cover' />
                 </div>
             </Section>
         </>

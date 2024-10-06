@@ -6,7 +6,7 @@ const AntsPageMain = () => {
             <div className='min-h-screen bg-gradient-to-br from-indigo-500 via-indigo-300 to-indigo-100 pb-32'>
                 <p className='pt-20 pb-4 flex justify-center text-2xl font-bold'>Ants VS. Some Bees!</p>
                 <div className='flex justify-center'>
-                    <img src="./src/assets/ants.png" alt="" className='w-3/5'/>
+                    <img src="./assets/ants.png" alt="" className='w-3/5'/>
                 </div>
                 <p className='text-3xl font-bold mt-32 mb-8 ml-8'>Brief Overview</p>
                 <p className='ml-8 mr-8'>After noticing bugs in Berkeley's CS61A's Ants VS. Some Bees project, my 

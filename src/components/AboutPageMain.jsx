@@ -14,7 +14,7 @@ const AboutPageMain = () => {
                             </p>
                         </div>
                     </div>
-                    <img src="./src/assets/about.png" alt="" className='w-1/4 object-cover mr-32 my-32' />
+                    <img src="./assets/about.png" alt="" className='w-1/4 object-cover mr-32 my-32' />
                 </div>
             </div>
         </>
