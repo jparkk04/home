@@ -8,7 +8,7 @@ const ProjectPageMain = () => {
             <div className='min-h-screen bg-gradient-to-br from-indigo-500 via-indigo-300 to-indigo-100'>
                 <p className='pt-20 pb-4 flex justify-center text-2xl font-bold'>Featured Project: Recreation of CS61A Ants VS Some Bees</p>
                 <div className='flex justify-center'>
-                    <img src="./assets/ants.png" alt="" className='w-3/5'/>
+                    <img src="./images/ants.png" alt="" className='w-3/5'/>
                 </div>
                 
                 <div className='mx-80 my-8'>
