@@ -1,3 +1,5 @@
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css'
 import Hero from './components/Hero.jsx'
 import HomeAbout from './components/HomeAbout'

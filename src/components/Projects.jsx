@@ -18,7 +18,7 @@ const Projects = () => {
                     description={'Created a Deep Neural Network based chatbot using Tensorflow that automatically responds to WhatsApp customer queries for Kura, used NLTK for preprocessing data and Bag of Words model for NLP, and deployed using Heroku and Twilio.'} 
                     skills={'Python, Tensorflow, NLTK, Heroku, Twilio'}/>
                 </div>
-                <HomeButton link='./projects.html' text='More Projects' />
+                <HomeButton link='/projects' text='More Projects' />
             </Section>
         </>
     )

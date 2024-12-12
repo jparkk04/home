@@ -12,7 +12,7 @@ const WorkExperience = () => {
                     <Box title={'Google DeepMind LLM Dataset Engineer'} startDate={'Mar 2024'} endDate={'Present'} description={'Creating 200 advanced mathematical questions for a dataset used for evaluating and improving LLMs in solving and creating solutions for difficult mathematical problems.'}/>
                     <Box title={'Kura Co-Founder and Technical Officier'} startDate={'Oct 2021'} endDate={'Sep 2023'} description={'Founded Kura, a digital insurance agency with social causes, promoting health insurance for family and friends living in the Caribbean. Created a prototype WhatsApp AI Chatbot to streamline customer communications and designed company website.'}/>
                 </div>
-                <HomeButton link='./work-experience' text='More Experiences' />
+                <HomeButton link='/work-experience' text='More Experiences' />
             </Section>
         </>
     )

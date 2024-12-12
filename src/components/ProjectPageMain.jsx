@@ -12,7 +12,7 @@ const ProjectPageMain = () => {
                 </div>
                 
                 <div className='mx-80 my-8'>
-                    <HomeButton text='Learn More!' link='./ants.html' />
+                    <HomeButton text='Learn More!' link='/ants' />
                 </div>
 
                 <p className='text-3xl font-bold mt-32 flex justify-center'>More Projects</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 import { MdLightMode } from "react-icons/md";
 
 const Navbar = () => {
@@ -8,16 +9,16 @@ const Navbar = () => {
                 <div className='flex justify-between item-center w-full'>
                     <ul className='flex flex-row text-xl py-4'>
                         <li>
-                            <a href="./" className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Home</a>
+                            <Link to={"/home"} className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Home</Link>
                         </li>
                         <li>
-                            <a href="./about.html" className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>About</a>
+                            <Link to={"/about"} className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>About</Link>
                         </li>
                         <li>
-                            <a href="./work-experience.html" className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Work Experience</a>
+                            <Link to={"/work-experience"} className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Work Experience</Link>
                         </li>
                         <li>
-                            <a href="./projects.html" className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Projects</a>
+                            <Link to={"/projects"} className='px-3 py-4 border-solid border-2 border-transparent hover:border-slate-200'>Projects</Link>
                         </li>
                     </ul>
                     <button className='flex justify-between ml-auto px-6 py-4 hidden'>

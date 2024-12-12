@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import AntsPageMain from './components/AntsPageMain'
 
-function About() {
+function Ants() {
 
   return (
     <>
@@ -12,5 +12,5 @@ function About() {
   )
 }
 
-export default About
+export default Ants
 
